@@ -1,4 +1,4 @@
- # <spam style="color:blue">Jesús Troya Martínez</spam>          
+ # <spam style="color:red"Jesús Troya Martínez>/spam          
 
 
 **Fecha de nacimiento**: _05/01/2005_ **Nacionalidad:** _Española_ **Género:** _Masculino_ **Número de teléfono:** ***66......2***
