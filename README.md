@@ -1,6 +1,6 @@
 ## Jesús Troya Martínez       
 
-![foto](https://pbs.twimg.com/media/ElmPBfpX0AAOwZt.jpg)
+![foto]([https://pbs.twimg.com/media/ElmPBfpX0AAOwZt.jpg](https://us.123rf.com/450wm/siridhata/siridhata1612/siridhata161200032/67974628-ilustraci%C3%B3n-de-dibujos-animados-sonriente-del-vector-persona.jpg))
 
 **Fecha de nacimiento**: _05/01/2005_ **Nacionalidad:** _Española_ **Género:** _Masculino_ **Número de teléfono:** ***66......2***
 
