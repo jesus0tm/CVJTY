@@ -1,4 +1,4 @@
-##Jesús Troya Martínez       
+## Jesús Troya Martínez       
 
 
 **Fecha de nacimiento**: _05/01/2005_ **Nacionalidad:** _Española_ **Género:** _Masculino_ **Número de teléfono:** ***66......2***
@@ -23,7 +23,7 @@ _12/09/2008_ – _22/06/2023_ **Palma, España**
 22/09/2022 – 22/06/2024 Palma, Illes Balears, España
 **TÉCNICO EN SISTEMAS MICROINFORMÁTICOS Y REDES Aula Balear**
 
-**Direccion** **__C. Can Valero, 19, 07011 Palma, Illes Balears **Web** https://www.aulabalear.org/__**
+**Direccion** __**C. Can Valero, 19, 07011 Palma, Illes Balears **Web** https://www.aulabalear.org/**__
 
 ### -COMPETENCIAS DE IDIOMAS
 
