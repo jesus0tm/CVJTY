@@ -21,19 +21,21 @@ _12/09/2008_ – _22/06/2023_ **Palma, España**
 **Dirección** Carrer Baltasar Valenti, Palma, España **Web** http://www.colegisantpere.com
 
 22/09/2022 – 22/06/2024 Palma, Illes Balears, España
-### TÉCNICO EN SISTEMAS MICROINFORMÁTICOS Y REDES Aula Balear
+**TÉCNICO EN SISTEMAS MICROINFORMÁTICOS Y REDES Aula Balear**
 
-## COMPETENCIAS DE IDIOMAS
+**Direccion** **__C. Can Valero, 19, 07011 Palma, Illes Balears **Web** https://www.aulabalear.org/__**
+
+### -COMPETENCIAS DE IDIOMAS
 
           
-##                         COMPRENSIÓN               EXPRESIÓN ORAL                     EXPRESIÓN
+###                         COMPRENSIÓN               EXPRESIÓN ORAL                     EXPRESIÓN
           
 ###		Comrpesion auditiva  Comprensión lectora  Producción oral Interacción oral
 
 **CATALÁN**                  B1                     B1                B1            B1         B1
 **INGLÉS**                   A1                     A1                A1            A1         A1
 
-## Aficiones e intereses
+### Aficiones e intereses
 
 Aficiones: -Conocimiento basico en Dibujo
--Nivel alto en Artes Marciales (Karate) ( Cinturon Negro 1oDan )
+	   -Nivel alto en Artes Marciales (Karate) ( Cinturon Negro 1oDan )
