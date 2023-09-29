@@ -12,7 +12,7 @@
 _Soy un estudiante de FP, que se ha sacado la ESO. Tengo experiencia basica en informática, 
 ver los fallos y saber como actuar al momento en tema de arreglar ordenadores. Me cuesta confiar
 en la gente, pero eso no me impide en poder trabajar con la gente._
-
+---------------------------------------------------------------------------------------------------------------------------------------
 ## **Educación y Formación**
 
 _12/09/2008_ – _22/06/2023_ **Palma, España**
@@ -24,7 +24,7 @@ _12/09/2008_ – _22/06/2023_ **Palma, España**
 **TÉCNICO EN SISTEMAS MICROINFORMÁTICOS Y REDES Aula Balear**
 
 **Direccion** __**C. Can Valero, 19, 07011 Palma, Illes Balears **Web** https://www.aulabalear.org/**__
-
+---------------------------------------------------------------------------------------------------------------------------------------
 ### -COMPETENCIAS DE IDIOMAS
 
           
@@ -35,7 +35,7 @@ _12/09/2008_ – _22/06/2023_ **Palma, España**
 **CATALÁN**                  B1                     B1                B1            B1         B1
 
 **INGLÉS**                   A1                     A1                A1            A1         A1
-
+----------------------------------------------------------------------------------------------------------------------------------------
 ### Aficiones e intereses
 
 Aficiones: -Conocimiento basico en Dibujo
