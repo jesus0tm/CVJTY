@@ -33,6 +33,7 @@ _12/09/2008_ – _22/06/2023_ **Palma, España**
 ###		Comrpesion auditiva  Comprensión lectora  Producción oral Interacción oral
 
 **CATALÁN**                  B1                     B1                B1            B1         B1
+
 **INGLÉS**                   A1                     A1                A1            A1         A1
 
 ### Aficiones e intereses
