@@ -25,6 +25,15 @@ _12/09/2008_ – _22/06/2023_ **Palma, España**
 
 ## COMPETENCIAS DE IDIOMAS
 
+          
+##                         COMPRENSIÓN               EXPRESIÓN ORAL                     EXPRESIÓN
+          
+###		Comrpesion auditiva  Comprensión lectora  Producción oral Interacción oral
 
-CATALÁN B1 B1 B1 B1 B1
-INGLÉS A1 A1 A1 A1 A1
+**CATALÁN**                  B1                     B1                B1            B1         B1
+**INGLÉS**                   A1                     A1                A1            A1         A1
+
+## Aficiones e intereses
+
+Aficiones: -Conocimiento basico en Dibujo
+-Nivel alto en Artes Marciales (Karate) ( Cinturon Negro 1oDan )
