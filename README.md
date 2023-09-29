@@ -10,9 +10,9 @@
 
 **Sobre mí:**
 
-_Soy un estudiante de FP, que se ha sacado la ESO. Tengo experiencia basica en informática, 
+Soy un estudiante de FP, que se ha sacado la ESO. Tengo experiencia basica en informática, 
 ver los fallos y saber como actuar al momento en tema de arreglar ordenadores. Me cuesta confiar
-en la gente, pero eso no me impide en poder trabajar con la gente._
+en la gente, pero eso no me impide en poder trabajar con la gente.
 ---------------------------------------------------------------------------------------------------------------------------------------
 ## **Educación y Formación**
 
