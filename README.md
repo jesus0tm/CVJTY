@@ -1,6 +1,6 @@
 ## Jesús Troya Martínez       
 
-![foto](https://pbs.twimg.com/media/EyfaPDZXEAkKGid.jpg)
+![foto](https://pbs.twimg.com/media/ElmPBfpX0AAOwZt.jpg)
 
 **Fecha de nacimiento**: _05/01/2005_ **Nacionalidad:** _Española_ **Género:** _Masculino_ **Número de teléfono:** ***66......2***
 
