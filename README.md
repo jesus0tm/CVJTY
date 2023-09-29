@@ -1,6 +1,6 @@
 ## Jesús Troya Martínez       
 
-![foto](https://www.billboard.com/wp-content/uploads/2023/04/jack-black-peaches-music-video-courtesy-photo-billboard-1548.jpg)
+![foto](https://pbs.twimg.com/media/EyfaPDZXEAkKGid.jpg)
 
 **Fecha de nacimiento**: _05/01/2005_ **Nacionalidad:** _Española_ **Género:** _Masculino_ **Número de teléfono:** ***66......2***
 
