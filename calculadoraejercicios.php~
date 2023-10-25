@@ -36,11 +36,11 @@ switch ($op) {
         break;
 
         case 'Multiplicar':
-        $resultado = $op1 * $op2;
+        $resultado = multiplicar $op1 * $op2;
         break;
 
         case 'Dividir':
-        $resultado = $op1 / $op2;
+        $resultado = dividir $op1 / $op2;
         break;
 }
 

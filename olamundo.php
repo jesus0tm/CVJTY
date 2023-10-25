@@ -1,7 +1,7 @@
 <?php
-echo "Hola", " món";
-print ("Hola ");
-print ("món ");
+$n = $_GET['yago'];
+$Sal = $_GET['hola'];
+echo "Hola $n"
 ?>
 
 
