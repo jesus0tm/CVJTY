@@ -1,3 +1,5 @@
+<!-- Ejercicio 1 -->
+
 <comarcas>
     <comarca nombre="Llevant"></comarca>
 	<pueblo>Arta</pueblo>
@@ -22,6 +24,7 @@
 
 
 -----------------------------------------------------------------
+<!-- Ejercicio 2 -->
 
 <dias>
 	<dia id="Lunes">
@@ -44,7 +47,7 @@
 
 -----------------------------------------------------------------
 
-
+<!-- Ejercicio 3 -->
 
 <t_habitaciones>
 	<habitacion>	
@@ -63,7 +66,7 @@
 
 -----------------------------------------------------------------
 
-
+<!-- Ejercicio 4 -->
 
 <departamentos>
     <departamento>
