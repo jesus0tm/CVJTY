@@ -1,0 +1,76 @@
+<comarcas>
+    <comarca nombre="Llevant"></comarca>
+	<pueblo>Arta</pueblo>
+	<pueblo>Capdepera</pueblo>
+
+</comarcas>
+
+
+
+
+<comarcas>
+
+<!-- Otra manera de hacerlo -->
+
+</comarcas>
+
+	<pueblos>
+	     <pueblo>Arta</pueblo>
+	     <pueblo>Capdepera</pueblo>
+
+	<nombre nombre="Llevant">
+
+
+-----------------------------------------------------------------
+
+<dias>
+	<dia id="Lunes">
+
+	<horas>
+	    <hora id="0">
+		<temperatura>15º</temperatura>
+		<viento>Despejado</despejado>
+	    </hora>
+	</horas>
+
+<!-- Para hacer un resumen ponemos todo fuera -->
+	<temperatura>15º</temperatura>
+
+	<viento>despejado</viento>
+
+	</dia>
+</dias>
+
+
+-----------------------------------------------------------------
+
+
+
+<t_habitaciones>
+	<habitacion>	
+		<tipo1>basica</tipo1>
+			<tipos_de_personas>
+				<tipo_persona>
+					<tipo_p>Adulto</tipo_p>
+					<precio>200.00</precio>
+					<divisa>eur</divisa>
+
+	</habitacion>
+
+
+</habitaciones>
+
+
+-----------------------------------------------------------------
+
+
+
+<departamentos>
+    <departamento>
+       <nombre>financiero</nombre>
+           <empleados>
+               <empleado>
+	            <nombre>juan
+	            <apellido>Rodriguez</apellido>
+               </empleado>
+</departamentos>
