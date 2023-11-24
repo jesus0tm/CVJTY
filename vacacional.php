@@ -18,7 +18,7 @@
 
 // cargamos el contenido del archivo
 
-$arxiu = "https://catalegdades.caib.cat/resource/rjfm-vxun.xml";
+$arxiu = "rjf.xml";
 $pobles = array();
 
 
