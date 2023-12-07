@@ -74,6 +74,9 @@
       <option value="SANT LLORENÇ DES CARDASSAR" <?php echo ($_GET['municipio'] ?? '') === 'SANT LLORENÇ DES CARDASSAR' ? 'selected' : ''; ?>>SANT LLORENÇ DES CARDASSAR</option>
       <option value="SANTANYÍ" <?php echo ($_GET['municipio'] ?? '') === 'SANTANYÍ' ? 'selected' : ''; ?>>SANTANYÍ</option>
       <option value="POLLENÇA" <?php echo ($_GET['municipio'] ?? '') === 'POLLENÇA' ? 'selected' : ''; ?>>POLLENÇA</option>
+      <option value="MANACOR" <?php echo ($_GET['municipio'] ?? '') === 'MANACOR' ? 'selected' : ''; ?>>MANACOR</option>
+      <option value="LLUCMAJOR" <?php echo ($_GET['municipio'] ?? '') === 'LLUCMAJOR' ? 'selected' : ''; ?>>LLUCMAJOR</option>
+      <option value="MURO" <?php echo ($_GET['municipio'] ?? '') === 'MURO' ? 'selected' : ''; ?>>MURO</option>
     </select>
   </div>
 
@@ -158,6 +161,26 @@
         ['Licencia de rentacar' => 'RC/58', 'Nombre comercial' => "ROIG RENT A CAR-HASSO", "Dirección completa" => "Avinguda BIENVENIDOS, 64. 07660 Cala D'Or, SANTANYÍ, Mallorca" ,  'numeroVehiculos' => 1509],  
         ['Licencia de rentacar' => 'RC/59', 'Nombre comercial' => "AUTOS LAGOON", "Dirección completa" => "Avinguda PEDRO MAS Y REUS, 18. 07400 ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 200], 
         ['Licencia de rentacar' => 'RC/60', 'Nombre comercial' => "AUTOS COLONIA", "Dirección completa" => "Avinguda MARQUES DE PALMER, 8. 07638 Colònia De Sant Jordi, SES SALINES, Mallorca" ,  'numeroVehiculos' => 143],  
+        ['Licencia de rentacar' => 'RC/61', 'Nombre comercial' => "COCHES FABIOLA", "Dirección completa" => "Avinguda D'INCA, 42. 07400 ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 158],  
+        ['Licencia de rentacar' => 'RC/62', 'Nombre comercial' => "OK", "Dirección completa" => "Camí SON FANGOS esquina CAN CALAFAT POL.SON OMS, S/N lletra SON OMS. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 2510],
+        ['Licencia de rentacar' => 'RC/63', 'Nombre comercial' => "MULTIAUTO PALMA", "Dirección completa" => "Carrer GREMI SABATERS, 12. 07009 PALMA, Mallorca" ,  'numeroVehiculos' => 54],  
+        ['Licencia de rentacar' => 'RC/64', 'Nombre comercial' => "SIXT", "Dirección completa" => "Carrer CANAL DE SANT JORDI-POL SON OMS, 29 local 2. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 3366],  
+        ['Licencia de rentacar' => 'RC/65', 'Nombre comercial' => "COCHES REUS", "Dirección completa" => "Carrer CESAR, 8. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 170],  
+        ['Licencia de rentacar' => 'RC/66', 'Nombre comercial' => "EUROMAX MALLORCA", "Dirección completa" => "Carrer GREMI SABATERS, 34 lletra 4. 07009 PALMA, Mallorca" ,  'numeroVehiculos' => 35],  
+        ['Licencia de rentacar' => 'RC/67', 'Nombre comercial' => "AUTO CLICK", "Dirección completa" => "Carrer CALÇAT, 6 pis 3 porta IZQ. 07011 PALMA, Mallorca" ,  'numeroVehiculos' => 226],  
+        ['Licencia de rentacar' => 'RC/68', 'Nombre comercial' => "AUTOMOTOJG", "Dirección completa" => "Avinguda CRISTOBAL COLON, 51. 07560 Cala Millor, SANT LLORENÇ DES CARDASSAR, Mallorca" ,  'numeroVehiculos' => 162],  
+        ['Licencia de rentacar' => 'RC/69', 'Nombre comercial' => "GOLDCAR", "Dirección completa" => "Carretera AEROPUERTO -TERMINAL, S/N. 07071 Son Sant Joan, PALMA, Mallorca" ,  'numeroVehiculos' => 4149],  
+        ['Licencia de rentacar' => 'RC/70', 'Nombre comercial' => "ANSAB", "Dirección completa" => "Avinguda CARTAGO, 51 local BAIXA. 07600 Arenal (L'), LLUCMAJOR, Mallorca" ,  'numeroVehiculos' => 96],  
+        ['Licencia de rentacar' => 'RC/71', 'Nombre comercial' => "LOW COST", "Dirección completa" => "Carrer CARAVEL·LA, 14 local 7-8. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 37],  
+        ['Licencia de rentacar' => 'RC/72', 'Nombre comercial' => "RENT A CAR BENNASAR", "Dirección completa" => "Carrer CAMPOS, 33-35. 07200 FELANITX, Mallorca" ,  'numeroVehiculos' => 100], 
+        ['Licencia de rentacar' => 'RC/73', 'Nombre comercial' => "RICKY'S CARS", "Dirección completa" => "Carrer RANDA, 9 lletra C. 07609 LLUCMAJOR, Mallorca" ,  'numeroVehiculos' => 24], 
+        ['Licencia de rentacar' => 'RC/74', 'Nombre comercial' => "SOL", "Dirección completa" => "Carrer ROSER VELL, 135. 07460 POLLENÇA, Mallorca" ,  'numeroVehiculos' => 34], 
+        ['Licencia de rentacar' => 'RC/75', 'Nombre comercial' => "BALEAR DE ECO-RECAMBIOS", "Dirección completa" => "Passeig FERROCARRIL, 28. 07500 MANACOR, Mallorca" ,  'numeroVehiculos' => 51], 
+        ['Licencia de rentacar' => 'RC/76', 'Nombre comercial' => "RENT AUTO MOTO", "Dirección completa" => "Carrer ESPALMADOR, 28. 07660 Cala D'Or, SANTANYÍ, Mallorca" ,  'numeroVehiculos' => 90], 
+        ['Licencia de rentacar' => 'RC/77', 'Nombre comercial' => "BOHEMI 40", "Dirección completa" => "Carrer LLAUT, 57. 07600 Arenal (L'), PALMA, Mallorca" ,  'numeroVehiculos' => 25], 
+        ['Licencia de rentacar' => 'RC/78', 'Nombre comercial' => "VIVES CARS", "Dirección completa" => "Carrer PICAPEDRER SOLAR B11-POL.INDUSTRIAL, 11. 07460 POLLENÇA, Mallorca" ,  'numeroVehiculos' => 85], 
+        ['Licencia de rentacar' => 'RC/79', 'Nombre comercial' => "KURT", "Dirección completa" => "Carrer CARROTJA, 43. 07680 Portocristo, MANACOR, Mallorca" ,  'numeroVehiculos' => 79], 
+        ['Licencia de rentacar' => 'RC/80', 'Nombre comercial' => "NIZAR", "Dirección completa" => "Carrer CRECER, 5 lletra C. 07458 Platja De Muro, MURO, Mallorca" ,  'numeroVehiculos' => 29], 
       ];
 
       foreach ($empresas as $empresa) {
