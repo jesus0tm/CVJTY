@@ -56,6 +56,9 @@
       <option value="07659" <?php echo ($_GET['codigoPostal'] ?? '') === '07659' ? 'selected' : ''; ?>>07659</option>
       <option value="07181" <?php echo ($_GET['codigoPostal'] ?? '') === '07181' ? 'selected' : ''; ?>>07181</option>
       <option value="07660" <?php echo ($_GET['codigoPostal'] ?? '') === '07660' ? 'selected' : ''; ?>>07660</option>
+      <option value="07007" <?php echo ($_GET['codigoPostal'] ?? '') === '07007' ? 'selected' : ''; ?>>07007</option>
+      <option value="07199" <?php echo ($_GET['codigoPostal'] ?? '') === '07199' ? 'selected' : ''; ?>>07199</option>
+      <option value="07311" <?php echo ($_GET['codigoPostal'] ?? '') === '07311' ? 'selected' : ''; ?>>07311</option>
     </select>
   </div>
 
@@ -77,6 +80,7 @@
       <option value="MANACOR" <?php echo ($_GET['municipio'] ?? '') === 'MANACOR' ? 'selected' : ''; ?>>MANACOR</option>
       <option value="LLUCMAJOR" <?php echo ($_GET['municipio'] ?? '') === 'LLUCMAJOR' ? 'selected' : ''; ?>>LLUCMAJOR</option>
       <option value="MURO" <?php echo ($_GET['municipio'] ?? '') === 'MURO' ? 'selected' : ''; ?>>MURO</option>
+      <option value="SÓLLER" <?php echo ($_GET['municipio'] ?? '') === 'SÓLLER' ? 'selected' : ''; ?>>SÓLLER</option>
     </select>
   </div>
 
@@ -142,7 +146,7 @@
 		  ['Licencia de rentacar' => 'RC/39', 'Nombre comercial' => "RENT AUTO L'AGULLA", "Dirección completa" => "Carrer DE L'AGULLA, 116. 07590 Cala Rajada, CAPDEPERA, Mallorca" ,  'numeroVehiculos' => 21],    
 		  ['Licencia de rentacar' => 'RC/40', 'Nombre comercial' => "AVIS BUDGET", "Dirección completa" => "Carretera llucmajor Saranjasa Km. 9,9, 9,9. 07610 PALMA, Mallorca" ,  'numeroVehiculos' => 21],  
 		  ['Licencia de rentacar' => 'RC/41', 'Nombre comercial' => "AUTOS ALCINA", "Dirección completa" => "Avinguda INGENIERO GABRIEL ROCA, 16. 07014 PALMA, Mallorca" ,  'numeroVehiculos' => 23],    
-		  ['Licencia de rentacar' => 'RC/42', 'Nombre comercial' => "CARPAY", "Dirección completa" => "Avinguda INGENIERO GABRIEL ROCA, 16. 07014 PALMA, Mallorca" ,  'numeroVehiculos' => 38],  
+		  ['Licencia de rentacar' => 'RC/42', 'Nombre comercial' => "CARPAY", "Dirección completa" => "Avinguda PEDRO MAS I REUS, 2. 07400 ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 38],  
 		  ['Licencia de rentacar' => 'RC/43', 'Nombre comercial' => "AUTOS CARPAY", "Dirección completa" => "Passeig COLON, 149. 07458 Can Picafort, SANTA MARGALIDA, Mallorca" ,  'numeroVehiculos' => 5],   
 		  ['Licencia de rentacar' => 'RC/44', 'Nombre comercial' => "RECORD GO", "Dirección completa" => "Zona AEROPUERTO SON SANT JOAN, S/N. 07611 Son Sant Joan, PALMA, Mallorca" ,  'numeroVehiculos' => 5224],   
 		  ['Licencia de rentacar' => 'RC/45', 'Nombre comercial' => "AVANCE", "Dirección completa" => "Carrer Benito Feijoo, 2 local 9. 07181 Portals Nous, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 85],  
@@ -181,10 +185,108 @@
         ['Licencia de rentacar' => 'RC/78', 'Nombre comercial' => "VIVES CARS", "Dirección completa" => "Carrer PICAPEDRER SOLAR B11-POL.INDUSTRIAL, 11. 07460 POLLENÇA, Mallorca" ,  'numeroVehiculos' => 85], 
         ['Licencia de rentacar' => 'RC/79', 'Nombre comercial' => "KURT", "Dirección completa" => "Carrer CARROTJA, 43. 07680 Portocristo, MANACOR, Mallorca" ,  'numeroVehiculos' => 79], 
         ['Licencia de rentacar' => 'RC/80', 'Nombre comercial' => "NIZAR", "Dirección completa" => "Carrer CRECER, 5 lletra C. 07458 Platja De Muro, MURO, Mallorca" ,  'numeroVehiculos' => 29], 
-      ];
-
-      foreach ($empresas as $empresa) {
+        ['Licencia de rentacar' => 'RC/81', 'Nombre comercial' => "WORLD CAR RENTALS", "Dirección completa" => "Plaça CONSTITUCION, 8 pis 1 porta B. 07100 SÓLLER, Mallorca" ,  'numeroVehiculos' => 20],  
+        ['Licencia de rentacar' => 'RC/82', 'Nombre comercial' => "AMACKIA TRAVEL", "Dirección completa" => "Camí SO FANGOS, 100. 07007 PALMA, Mallorca" ,  'numeroVehiculos' => 1],  
+        ['Licencia de rentacar' => 'RC/83', 'Nombre comercial' => "LAZY BUS", "Dirección completa" => "Camí SO FANGOS, 100. 07007 PALMA, Mallorca" ,  'numeroVehiculos' => 5],  
+        ['Licencia de rentacar' => 'RC/84', 'Nombre comercial' => "STAR", "Dirección completa" => "Carrer GEORGES BERNANOS, 17. 07015 PALMA, Mallorca" ,  'numeroVehiculos' => 37],  
+        ['Licencia de rentacar' => 'RC/85', 'Nombre comercial' => "AUTOS ROQUERO", "Dirección completa" => "Avinguda Peguera, 30 local 9. 07160 Peguera, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 44],  
+        ['Licencia de rentacar' => 'RC/86', 'Nombre comercial' => "MARKUS ROPERTZ", "Dirección completa" => "Carrer NO TE LOCAL COMERCIAL-SOLO ON LINE, 0. 07609 Torre (La), LLUCMAJOR, Mallorca" ,  'numeroVehiculos' => 8],  
+        ['Licencia de rentacar' => 'RC/87', 'Nombre comercial' => "LLASER", "Dirección completa" => "asseig ES TRAVÉS, 1. 07108 Port (El), SÓLLER, Mallorca" ,  'numeroVehiculos' => 24],  
+        ['Licencia de rentacar' => 'RC/88', 'Nombre comercial' => "B.SERRA", "Dirección completa" => "Passeig ES TRAVÉS, 26. 07108 Port (El), SÓLLER, Mallorca" ,  'numeroVehiculos' => 23],  
+        ['Licencia de rentacar' => 'RC/89', 'Nombre comercial' => "ARASH", "Dirección completa" => "Carretera Andratx Km. 10, 10 local 16-6. 07181 Portals Nous, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 91],  
+        ['Licencia de rentacar' => 'RC/90', 'Nombre comercial' => "MINICAR MALLORCA", "Dirección completa" => "Carrer SON BUGADELLES, 4. 07180 Santa Ponça, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 22],  
+        ['Licencia de rentacar' => 'RC/91', 'Nombre comercial' => "ALFA JET", "Dirección completa" => "Passeig ES TRAVÉS, 25. 07108 Port (El), SÓLLER, Mallorca" ,  'numeroVehiculos' => 19],  
+        ['Licencia de rentacar' => 'RC/92', 'Nombre comercial' => "AUTOS VERGER", "Dirección completa" => "Carrer PRIMAVERA, 28. 07638 Colònia De Sant Jordi, SES SALINES, Mallorca" ,  'numeroVehiculos' => 41],  
+        ['Licencia de rentacar' => 'RC/93', 'Nombre comercial' => "AUTOS PEPE", "Dirección completa" => "Carrer EUCALIPTUS, 1. 07160 Peguera, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 83],  
+        ['Licencia de rentacar' => 'RC/94', 'Nombre comercial' => "AUTOS CUSTODIA", "Dirección completa" => "Avinguda Peguera, 29. 07160 Peguera, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 44],  
+        ['Licencia de rentacar' => 'RC/95', 'Nombre comercial' => "WHEELIES", "Dirección completa" => "Avinguda S'OLIVERA, 11 local 8. 07182 Magaluf, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 35],  
+        ['Licencia de rentacar' => 'RC/96', 'Nombre comercial' => "J.M. TUGORES FEBRER", "Dirección completa" => "Avinguda DE S'ALBUFERA, 25 local 1. 07458 MURO, Mallorca" ,  'numeroVehiculos' => 8],  
+        ['Licencia de rentacar' => 'RC/97', 'Nombre comercial' => "PLANETA", "Dirección completa" => "Carretera CALAS DE MALLORCA-CC CASA PILA, 5. 07689 Cales De Mallorca, MANACOR, Mallorca" ,  'numeroVehiculos' => 111],  
+        ['Licencia de rentacar' => 'RC/98', 'Nombre comercial' => "EB-CARS", "Dirección completa" => "Carrer Alacant-pol.Son Bugadellas, 62 local 10. 07180 Santa Ponça, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 32],  
+        ['Licencia de rentacar' => 'RC/99', 'Nombre comercial' => "AUTOS PAGUERA", "Dirección completa" => "Avinguda PEGUERA, 61. 07160 Peguera, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 41],  
+        ['Licencia de rentacar' => 'RC/100', 'Nombre comercial' => "AUTOS BALEARS", "Dirección completa" => "Carrer EUCALIPTUS, 9. 07160 Peguera, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 92],  
+        ['Licencia de rentacar' => 'RC/101', 'Nombre comercial' => "REN HAMS", "Dirección completa" => "Carretera Manacor-Porto Cristo Km. 10, 10. 07680 Portocristo, MANACOR, Mallorca" ,  'numeroVehiculos' => 17],
+        ['Licencia de rentacar' => 'RC/102', 'Nombre comercial' => "AUTOS MAGALLUF", "Dirección completa" => "Carrer S'Olivera, 16. 07181 Magaluf, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 44],
+        ['Licencia de rentacar' => 'RC/103', 'Nombre comercial' => "DRIVER CALA MILLOR", "Dirección completa" => "Carrer Bonanza, 4. 07560 Cala Millor, SANT LLORENÇ DES CARDASSAR, Mallorca" ,  'numeroVehiculos' => 100],
+        ['Licencia de rentacar' => 'RC/104', 'Nombre comercial' => "GAELIC", "Dirección completa" => "Carrer Ramon de Moncada, 20 local 1. 07180 Santa Ponça, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 50],
+        ['Licencia de rentacar' => 'RC/105', 'Nombre comercial' => "SUREDA MAS", "Dirección completa" => "Via de les Coves, 52. 07589 Canyamel, CAPDEPERA, Mallorca" ,  'numeroVehiculos' => 30],
+        ['Licencia de rentacar' => 'RC/106', 'Nombre comercial' => "DIMCAR", "Dirección completa" => "Carrer Sant Ramon Nonat, 7 porta baixos. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 13],
+        ['Licencia de rentacar' => 'RC/107', 'Nombre comercial' => "FALCO RENT", "Dirección completa" => "Carrer Duc de Extremera, 7. 07181 Palmanova, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 18],
+        ['Licencia de rentacar' => 'RC/108', 'Nombre comercial' => "AUTOVERMIENTUNG LEOCAR", "Dirección completa" => "Carrer Gran Via, , 5 local 55. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 71],
+        ['Licencia de rentacar' => 'RC/109', 'Nombre comercial' => "TORRENOVA", "Dirección completa" => "Avinguda Pedro Vaquer , 8 local 11. 07181 Magaluf, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 130],
+        ['Licencia de rentacar' => 'RC/110', 'Nombre comercial' => "ECUS", "Dirección completa" => "Avinguda Pedro Vaquer, 12 local 1. 07181 Magaluf, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 23],
+        ['Licencia de rentacar' => 'RC/111', 'Nombre comercial' => "MEDITERRANEO", "Dirección completa" => "Avinguda Las Savinas, 172. 07560 Coma (La), SANT LLORENÇ DES CARDASSAR, Mallorca" ,  'numeroVehiculos' => 7],
+        ['Licencia de rentacar' => 'RC/112', 'Nombre comercial' => "SUN&FUN", "Dirección completa" => "Camí Son Mossons, s/n. 07611 PALMA, Mallorca" ,  'numeroVehiculos' => 83],
+        ['Licencia de rentacar' => 'RC/113', 'Nombre comercial' => "TERRY'S", "Dirección completa" => "Carrer BELLAMAR, 8. 07610 PALMA, Mallorca" ,  'numeroVehiculos' => 60],
+        ['Licencia de rentacar' => 'RC/114', 'Nombre comercial' => "RENT A BIKE SA COMA", "Dirección completa" => "Avinguda Ses Savines, 140. 07560 Coma (La), SANT LLORENÇ DES CARDASSAR, Mallorca" ,  'numeroVehiculos' => 10],
+        ['Licencia de rentacar' => 'RC/116', 'Nombre comercial' => "RENT ME STELMAKH MALLORCA", "Dirección completa" => "Carrer Gran Via puig de Gaalatzo, 16 local O. 07180 Santa Ponça, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 22],
+        ['Licencia de rentacar' => 'RC/117', 'Nombre comercial' => "AUTOS ARBONA", "Dirección completa" => "Avinguda de la Marina, 13 porta baixo. 07400 ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 15],
+        ['Licencia de rentacar' => 'RC/118', 'Nombre comercial' => "AUTOS CANO", "Dirección completa" => "arrer Bellamar, 20 local 12. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 33],
+        ['Licencia de rentacar' => 'RC/119', 'Nombre comercial' => "CAN PASTILLA", "Dirección completa" => "Carretera Can Pastilla, 112. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 19],
+        ['Licencia de rentacar' => 'RC/120', 'Nombre comercial' => "BELMAR", "Dirección completa" => "Passeig Illetes, 12 porta A local 1. 07181 Cas Català-Illetes, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 19],
+        ['Licencia de rentacar' => 'RC/121', 'Nombre comercial' => "AUTOS KING", "Dirección completa" => "Avinguda Paguera, 34. 07184 Peguera, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 43],  
+        ['Licencia de rentacar' => 'RC/122', 'Nombre comercial' => "ESTEBAN ORTEGA FANALS", "Dirección completa" => "Camí Son Prunes, 19. 07198 Son Ferriol, PALMA, Mallorca" ,  'numeroVehiculos' => 1],  
+        ['Licencia de rentacar' => 'RC/123', 'Nombre comercial' => "MECANICOLOR", "Dirección completa" => "Carrer Justicia, 14. 07300 INCA, Mallorca" ,  'numeroVehiculos' => 8],  
+        ['Licencia de rentacar' => 'RC/124', 'Nombre comercial' => "AUTOSOMEGA", "Dirección completa" => "Carrer Gran Via Puig del Teix, 6. 07180 Santa Ponça, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 35],  
+        ['Licencia de rentacar' => 'RC/125', 'Nombre comercial' => "ANSE", "Dirección completa" => "Avinguda Gabriel Roca, 9. 07014 PALMA, Mallorca" ,  'numeroVehiculos' => 46],  
+        ['Licencia de rentacar' => 'RC/126', 'Nombre comercial' => "CHOTRA", "Dirección completa" => "Avinguda de America, 4 porta baixos. 07600 Arenal (L'), PALMA, Mallorca" ,  'numeroVehiculos' => 21],  
+        ['Licencia de rentacar' => 'RC/127', 'Nombre comercial' => "VIGOSA", "Dirección completa" => "Avinguda Gabriel ROca, 12. 07014 PALMA, Mallorca" ,  'numeroVehiculos' => 50],  
+        ['Licencia de rentacar' => 'RC/128', 'Nombre comercial' => "LOW COST", "Dirección completa" => "Avinguda Gabriel Roca, 9,11 i 12. 07014 PALMA, Mallorca" ,  'numeroVehiculos' => 0],  
+        ['Licencia de rentacar' => 'RC/129', 'Nombre comercial' => "VANRELL", "Dirección completa" => "Carrer Pins, 22 pis 1 porta A. 07400 ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 450],  
+        ['Licencia de rentacar' => 'RC/130', 'Nombre comercial' => "INTERNACIONAL SMILEY CARS SL", "Dirección completa" => "Carrer Delfin, 3 local 2. 07160 Peguera, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 20],  
+		  ['Licencia de rentacar' => 'RC/131', 'Nombre comercial' => "TRENC", "Dirección completa" => "Carrer Antelmo Obrador, s/n. 07630 CAMPOS, Mallorca" ,  'numeroVehiculos' => 5],
+		  ['Licencia de rentacar' => 'RC/132', 'Nombre comercial' => "VISION RENT&TOURS", "Dirección completa" => "Avinguda Europa, 5. 07600 Arenal (L'), LLUCMAJOR, Mallorca" ,  'numeroVehiculos' => 61],
+		  ['Licencia de rentacar' => 'RC/133', 'Nombre comercial' => "RENT A BIKE VESKA", "Dirección completa" => "Carrer Pollacra, 6. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 6],
+		  ['Licencia de rentacar' => 'RC/134', 'Nombre comercial' => "CAROLINA Mª ISAZA ARTEAGA", "Dirección completa" => "Avinguda Mexico, 16. 07400 ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 20],
+		  ['Licencia de rentacar' => 'RC/135', 'Nombre comercial' => "BEACH AND CARS", "Dirección completa" => "Carretera Artà, 3. 07400 ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 49],
+		  ['Licencia de rentacar' => 'RC/136', 'Nombre comercial' => "SUMMER", "Dirección completa" => "Carrer Via Diagonal, 12. 07458 Can Picafort, SANTA MARGALIDA, Mallorca" ,  'numeroVehiculos' => 20],
+		  ['Licencia de rentacar' => 'RC/137', 'Nombre comercial' => "NATALY AUTOS", "Dirección completa" => "Carrer -, -. 07181 CALVIÀ, Mallorca" ,  'numeroVehiculos' => 9],
+		  ['Licencia de rentacar' => 'RC/138', 'Nombre comercial' => "AUTOS DE LA GALA BLAS", "Dirección completa" => "vinguda Gabriel Covas Alemany, 2 local 2. 07160 Camp De Mar, ANDRATX, Mallorca" ,  'numeroVehiculos' => 20],
+		  ['Licencia de rentacar' => 'RC/139', 'Nombre comercial' => "TRIP CARS VINTAGE", "Dirección completa" => "Avinguda SA COma, 24 lletra A_B. 07560 Cala Millor, SANT LLORENÇ DES CARDASSAR, Mallorca" ,  'numeroVehiculos' => 10],
+		  ['Licencia de rentacar' => 'RC/140', 'Nombre comercial' => "VANYOU MALLORCA", "Dirección completa" => "Carrer Morei, 12 pis 2 porta 1. 07007 PALMA, Mallorca" ,  'numeroVehiculos' => 3],
+		  ['Licencia de rentacar' => 'RC/141', 'Nombre comercial' => "EXCLUSIVE", "Dirección completa" => "Carrer Marina, 3. 07670 Portocolom, FELANITX, Mallorca" ,  'numeroVehiculos' => 14], 
+		  ['Licencia de rentacar' => 'RC/142', 'Nombre comercial' => "MESTRAL AUTO RENT", "Dirección completa" => "Carrer desl Pescador, 17. 07670 Portocolom, FELANITX, Mallorca" ,  'numeroVehiculos' => 10], 
+		  ['Licencia de rentacar' => 'RC/143', 'Nombre comercial' => "SAN SIRO", "Dirección completa" => "Carrer Canyes, 19 porta baixos. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 22], 
+		  ['Licencia de rentacar' => 'RC/144', 'Nombre comercial' => "BCD EASY CARS", "Dirección completa" => "Plaça Serralta, 14 lletra A porta 4 local 1. 07013 PALMA, Mallorca" ,  'numeroVehiculos' => 7], 
+		  ['Licencia de rentacar' => 'RC/145', 'Nombre comercial' => "SUNCARS", "Dirección completa" => "Carrer Son Moro, 57. 07689 Cala Anguila-Cala Mendia, MANACOR, Mallorca" ,  'numeroVehiculos' => 60], 
+		  ['Licencia de rentacar' => 'RC/146', 'Nombre comercial' => "BDV TRANDING MALLORCA", "Dirección completa" => "Avinguda de la Playa, 12. 07180 Palmanova, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 40], 
+		  ['Licencia de rentacar' => 'RC/147', 'Nombre comercial' => "AUTOMOVILES VIÑAS", "Dirección completa" => "Passeig Marítim de Cala Millor, 10. 07560 Cala Millor, SON SERVERA, Mallorca" ,  'numeroVehiculos' => 32], 
+		  ['Licencia de rentacar' => 'RC/148', 'Nombre comercial' => "VIÑAS RENT A CAR", "Dirección completa" => "Carrer Mestral cantonada Llebeig, -. 07560 Illot (L'), SANT LLORENÇ DES CARDASSAR, Mallorca" ,  'numeroVehiculos' => 50], 
+		  ['Licencia de rentacar' => 'RC/149', 'Nombre comercial' => "BIKES AND CARS PARADISE", "Dirección completa" => "Avinguda Ses Savines, 3. 07560 Coma (La), SANT LLORENÇ DES CARDASSAR, Mallorca" ,  'numeroVehiculos' => 13], 		  
+		  ['Licencia de rentacar' => 'RC/150', 'Nombre comercial' => "IBIZA LOW COST RENT", "Dirección completa" => "Carrer Acapulco, 4. 07610 Can Pastilla, PALMA, Mallorca" ,  'numeroVehiculos' => 29], 
+		  ['Licencia de rentacar' => 'RC/161', 'Nombre comercial' => "AUTOS ALZINA/RODES A LLOURE/WHEELS 2 RENT", "Dirección completa" => "Avinguda Canyamel, 36 pis baixos local 4. 07589 Font De La Cala, CAPDEPERA, Mallorca" ,  'numeroVehiculos' => 8],  
+		  ['Licencia de rentacar' => 'RC/162', 'Nombre comercial' => "DE BLAS GALA", "Dirección completa" => "Avinguda Covas Alemany, 76 pis baixos porta 4. 07160 Camp De Mar, ANDRATX, Mallorca" ,  'numeroVehiculos' => 10],  
+		  ['Licencia de rentacar' => 'RC/163', 'Nombre comercial' => "CAR BEL", "Dirección completa" => "Carrer Sencelles-Pol. Industrial Can Matzarí, 5. 07300 INCA, Mallorca" ,  'numeroVehiculos' => 20],  
+		  ['Licencia de rentacar' => 'RC/164', 'Nombre comercial' => "MISTER SCOOTER", "Dirección completa" => "Carrer Manacor, 123 pis baixos. 07007 PALMA, Mallorca" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/165', 'Nombre comercial' => "AUTOS JUCAR", "Dirección completa" => "Avinguda EUROPA, s/n. 07600 Arenal (L'), LLUCMAJOR, Mallorca" ,  'numeroVehiculos' => 35],  
+		  ['Licencia de rentacar' => 'RC/166', 'Nombre comercial' => "AMIGOAUTOS", "Dirección completa" => "Camí Son Fangos, s/n. 07610 PALMA, Mallorca" ,  'numeroVehiculos' => 29],  
+		  ['Licencia de rentacar' => 'RC/167', 'Nombre comercial' => "COLONIA ADVENTURE", "Dirección completa" => "Avinguda Ingeniero Gabriel Roca, 18. 07638 Colònia De Sant Jordi, SES SALINES, Mallorca" ,  'numeroVehiculos' => 10],  
+		  ['Licencia de rentacar' => 'RC/168', 'Nombre comercial' => "RENT 4 YOU", "Dirección completa" => "Avinguda Rey Jaime I, 104 local 3. 07180 Santa Ponça, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 8],  
+		  ['Licencia de rentacar' => 'RC/169', 'Nombre comercial' => "C&H (COMPANY E HIJOS)", "Dirección completa" => "Carrer Sant Pau, s/n. 07579 Colònia De Sant Pere, ARTÀ, Mallorca" ,  'numeroVehiculos' => 42],  
+		  ['Licencia de rentacar' => 'RC/170', 'Nombre comercial' => "AYG DRIVER RENT A CAR", "Dirección completa" => "Carrer Bonanza,, 4 pis baixos. 07560 Cala Millor, SON SERVERA, Mallorca" ,  'numeroVehiculos' => 40],
+		  ['Licencia de rentacar' => 'RC/171', 'Nombre comercial' => "CARAVANING MALLORCA", "Dirección completa" => "Carrer Coster de Son Puça, 7. 07310 CAMPANET, Mallorca" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/172', 'Nombre comercial' => "EGIDIO FORTUNATI", "Dirección completa" => "Carrer Cardenal Rosell, 135 pis baixos. 07007 PALMA, Mallorca" ,  'numeroVehiculos' => 15],  
+		  ['Licencia de rentacar' => 'RC/173', 'Nombre comercial' => "SPRINT RENTAL SPAIN", "Dirección completa" => "Carrer Perico Pomar, 5. 07660 Cala D'Or, SANTANYÍ, Mallorca" ,  'numeroVehiculos' => 50],  
+		  ['Licencia de rentacar' => 'RC/174', 'Nombre comercial' => "LUXCARS MALLORCA", "Dirección completa" => "Carretera Artà, 48. 07400 Port D'Alcúdia, ALCÚDIA, Mallorca" ,  'numeroVehiculos' => 80],  
+		  ['Licencia de rentacar' => 'RC/175', 'Nombre comercial' => "DAMALU CAMPER VAMS", "Dirección completa" => "Carrer Viver, 3 pis baixos. 07006 PALMA, Mallorca" ,  'numeroVehiculos' => 2],  
+		  ['Licencia de rentacar' => 'RC/176', 'Nombre comercial' => "Jose Mª Susacasa Candreva", "Dirección completa" => "Carrer Jesus, 34 lletra C. 07010 PALMA, Mallorca" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/177', 'Nombre comercial' => "ROBERT STANEK", "Dirección completa" => "Carrer POL. 4, PAR.110, S/N. 07311 BÚGER, Mallorca" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/178', 'Nombre comercial' => "MALLORCA BAY CARS", "Dirección completa" => "Carrer SON TROPELL, 22. 07199 Sant Jordi, PALMA, Mallorca" ,  'numeroVehiculos' => 15],  
+		  ['Licencia de rentacar' => 'RC/179', 'Nombre comercial' => "AUTOBOX", "Dirección completa" => "Carrer MAR MEDITERRÀNIA, 8. 07184 Galatzó, CALVIÀ, Mallorca" ,  'numeroVehiculos' => 4],  
+		  ['Licencia de rentacar' => 'RC/180', 'Nombre comercial' => "ISLEÑA DE MOTORES", "Dirección completa" => "Travessera GRAN VIA ASIMA, 30. 07009 Polígon Industrial De Son Castelló, PALMA, Mallorca" ,  'numeroVehiculos' => 20],
+		  ['Licencia de rentacar' => 'RC/181', 'Nombre comercial' => "ALFA RENT MALLORCA", "Dirección completa" => "Carrer ANTONI VILLALONGA, 2 pis 1º. 07011 PALMA, Mallorca" ,  'numeroVehiculos' => 2],  
+		  ['Licencia de rentacar' => 'RC/182', 'Nombre comercial' => "MUVON", "Dirección completa" => "Carrer SOL, 28 pis 3º porta B. 07001 PALMA, Mallorca" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/183', 'Nombre comercial' => "MOBELCARS", "Dirección completa" => "Carrer DEL 31 DE MARÇ, 24. 07570 ARTÀ, Mallorca" ,  'numeroVehiculos' => 5],  
+		  ['Licencia de rentacar' => 'RC/184', 'Nombre comercial' => "M&S PREMIUM CARS", "Dirección completa" => "Carrer VICENÇ JUAN ROSSELLÓ, 19 lletra A. 07013 PALMA, Mallorca" ,  'numeroVehiculos' => 4],  
+		  ['Licencia de rentacar' => 'RC/185', 'Nombre comercial' => "Experience Point Mallorca", "Dirección completa" => "Carrer Cartago, 70. 07600 Arenal (L'), PALMA, Mallorca" ,  'numeroVehiculos' => 25],  
+		  ['Licencia de rentacar' => 'RC/186', 'Nombre comercial' => "IGV MOTORS", "Dirección completa" => "SIURELLS, 10 lletra A. -, -" ,  'numeroVehiculos' => 5],  
+		  ['Licencia de rentacar' => 'RC/187', 'Nombre comercial' => "IBAN LECUMBERRI DIEZ", "Dirección completa" => "LLEDONER, 26 pis 2º porta B. -, PALMA" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/188', 'Nombre comercial' => "FERNANDO ARIAS PEREZ", "Dirección completa" => "SON CANAVES, 28 pis BXS.. -, PALMA" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/189', 'Nombre comercial' => "MALLORCA CAR HIRE COMPANY", "Dirección completa" => "LA RAMBLA 13-1º PALMA 07003" ,  'numeroVehiculos' => 1],  
+		  ['Licencia de rentacar' => 'RC/190', 'Nombre comercial' => "TOP AUTOBALEAR SL", "Dirección completa" => "SIVAL 20 BJS PALMA 07011" ,  'numeroVehiculos' => 20], 
+	];
         $codigoPostalFiltro = $_GET['codigoPostal'] ?? '';
+      foreach ($empresas as $empresa) {
         $municipioFiltro = $_GET['municipio'] ?? '';
         $nombreFiltro = strtolower($_GET['nombreFiltro'] ?? '');
 
